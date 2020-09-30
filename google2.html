@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Google</title>
+	<style>
+		h2	{
+			margin-left: 20px;
+		}
+		.container {
+			margin-right: 100px;
+			margin-left: 20px;
+		}
+		#imgGoogle {
+				display: block;
+			margin: 0 auto;
+			max-width: 100%;
+		}
+		.gsc-input-box, #gsc-iw-id1 {
+			border: 2px solid gray;
+			height: 40px;
+			border-radius: 20px; 
+			padding-top:13px;
+			box-shadow: rgba(0,0,0,0.4) 0 0 10px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h2>My own Google</h2>
+		<div class='container'>
+			
+		<img src="google.png" alt="google img" id="imgGoogle">
+		
+		<script>
+		  (function() {
+		    var cx = '005791472455246167281:ishqvvjpdfw';
+		    var gcse = document.createElement('script');
+		    gcse.type = 'text/javascript';
+		    gcse.async = true;
+		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+		        '//cse.google.com/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+		</div>
+
+		<gcse:search></gcse:search>
+
+	</div>
+</body>
+</html>
