@@ -1,5 +1,6 @@
 ## My own Google
 
+* solution - JavaScript
 * you can have your own google search engine on your website
 * the service is available via google
 
